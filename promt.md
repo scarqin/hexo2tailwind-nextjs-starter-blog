@@ -16,8 +16,6 @@ categories:
 ```
 转换为下面内容：
 1. date 转换为日期
-2. 
-
 ```
 ---
 title: Sample .md file
