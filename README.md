@@ -1,5 +1,6 @@
 # Hexo Migration to Tailwind Nextjs Starter Blog
 <p align="center"><span>English</span> | <a href="README-zh.md">简体中文</a></p>
+
 ## How to Use
 1. Configure the current project and the target project.
 2. Run the `script` script.
