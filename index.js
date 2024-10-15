@@ -108,7 +108,8 @@ function migrateDraft(sourcePath, targetPath) {
                 const categories = extractCategories(data);
                 categories.forEach(category => {
                     const categoryPath = path.join(targetDir, category);
-                    fs.mkdirSync(categoryPath, { recursive: true }); // Create category directory
+                    const newPath = categoryPath.replace('.md', '.mdx');
+                    fs.mkdirSync(newPath, { recursive: true }); // Create category directory
                     fs.writeFile(path.join(categoryPath, file), newContent, err => {
                         if (err) throw err;
                     });
